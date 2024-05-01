@@ -21,6 +21,10 @@ namespace MyApp.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Method
+        /// </summary>
+        /// <returns></returns>
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
