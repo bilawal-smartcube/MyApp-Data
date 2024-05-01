@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MyApp.Controllers
 {
+    /// <summary>
+    /// Writing some test code
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
